@@ -1,7 +1,7 @@
 let cargoHold = ['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'meal packs', 'slinky', 'security blanket'];
 
 //1) Use bracket notation to replace ‘slinky’ with ‘space tether’. Print the array to confirm the change.
-
+cargoHold
 //2) Remove the last item from the array with pop. Print the element removed and the updated array.
 
 //3) Remove the first item from the array with shift. Print the element removed and the updated array.
