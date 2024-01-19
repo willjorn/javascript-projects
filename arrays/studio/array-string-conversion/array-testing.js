@@ -11,7 +11,11 @@ function reverseCommas() {
 	let check;
 	let output;
 	//TODO: 2. write the code required for this step
-
+	check = strings[0];
+	if (check.includes(",")){
+		output = check.split(",").reverse.join(",");
+		console.log(output);
+	}
 	//NOTE: For the code to run properly, you must return your output.  this needs to be the final line of code within the function's { }.
 	return output;
 }
@@ -21,7 +25,10 @@ function semiDash() {
 	let check;
 	let output;
 //TODO: write the code required for this step
-
+check = string[1];
+if(check.includes(",")){
+	output = check.split(",").sort().join("")
+}
   
 	return output;
 }
@@ -31,7 +38,10 @@ function reverseSpaces() {
 	let check;
 	let output;
   //TODO: write the code required for this step
-
+  check = strings[2];
+  if (check.includes(" ")){
+    output = check.split(" ").sort().reverse().join(" ");
+    //console.log(output);
 	return output;
 }
 
@@ -40,7 +50,11 @@ function commaSpace() {
 	let check;
 	let output;
 	//TODO: write the code required for this step
-  
+	check = strings[3];
+    if (check.includes(", ")){
+    output = check.split(", ").reverse().join(",");
+    //console.log(output);
+}
 	return output;
 }
 
