@@ -1,4 +1,3 @@
-let jsCreator = "Brendan Eich";
+language = 'JavaScript';
 
-console.log(jsCreator[-1]);
-console.log(jsCreator[42])
+console.log(language.slice(1,6));
