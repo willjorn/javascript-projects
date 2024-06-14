@@ -1,3 +1,5 @@
-language = 'JavaScript';
+let phrase = "Chili Cook-off";
 
-console.log(language.slice(1,6));
+for (let i = 0; i <phrase.length -1; i = i +3){
+    console.log(phrase[i]);
+}
