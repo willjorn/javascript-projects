@@ -51,8 +51,8 @@ if (fuelLevel === 100 + "%") {
 if (weatherStatus === "clear") {
     console.log ("Conditions are met");
 } else {
-    console.log("Conditions are NOt met");
-}
+    console.log("Conditions are NOT met");
+} 
 // Verify shuttle launch can proceed based on above conditions
 console.log (date);
 console.log (time);
@@ -63,4 +63,5 @@ console.log (shuttleMassKg);
 console.log (totalMassKg);
 console.log (fuelTempCelsius);
 console.log (weatherStatus);
+console.log("---------------------------------------------------------------------------------");
 console.log ("Have a safe flight!");
