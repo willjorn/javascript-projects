@@ -57,6 +57,11 @@ function commaSpace() {
 }
 	return output;
 }
+reverseCommas();
+semiDash();
+reverseSpaces();
+commaSpace();
+
 
 // NOTE: Don't add or modify any code below this line or your program might not run as expected.
 module.exports = {
