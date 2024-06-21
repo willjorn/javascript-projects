@@ -54,6 +54,8 @@ if (weatherStatus === "clear") {
     console.log("Conditions are NOT met");
 } 
 // Verify shuttle launch can proceed based on above conditions
+console.log ("All systems a go! Initating space shuttle launch sequence" );
+console.log ("---------------------------------------------------------------------------")
 console.log (date);
 console.log (time);
 console.log (astronautCount);
